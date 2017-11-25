@@ -156,17 +156,6 @@ F 3 "" H 7150 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_01x08 J1
-U 1 1 5A142FF1
-P 8900 3950
-F 0 "J1" H 8900 4350 50  0000 C CNN
-F 1 "Screw_Terminal_01x08" H 8900 3450 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB13x_08x5mm_Straight" H 8900 3950 50  0001 C CNN
-F 3 "" H 8900 3950 50  0001 C CNN
-	1    8900 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R3
 U 1 1 5A14DD3A
 P 6950 4500
@@ -402,6 +391,50 @@ F 3 "" H 6700 3950 50  0001 C CNN
 	1    6700 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Screw_Terminal_01x02 J4
+U 1 1 5A17E440
+P 8350 1450
+F 0 "J4" H 8350 1550 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 8350 1250 50  0000 C CNN
+F 2 "" H 8350 1450 50  0001 C CNN
+F 3 "" H 8350 1450 50  0001 C CNN
+	1    8350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J3
+U 1 1 5A17E4EB
+P 8350 2750
+F 0 "J3" H 8350 2850 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 8350 2550 50  0000 C CNN
+F 2 "" H 8350 2750 50  0001 C CNN
+F 3 "" H 8350 2750 50  0001 C CNN
+	1    8350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J2
+U 1 1 5A17E5E9
+P 8350 4050
+F 0 "J2" H 8350 4150 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 8350 3850 50  0000 C CNN
+F 2 "" H 8350 4050 50  0001 C CNN
+F 3 "" H 8350 4050 50  0001 C CNN
+	1    8350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J1
+U 1 1 5A17E642
+P 8350 5350
+F 0 "J1" H 8350 5450 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 8350 5150 50  0000 C CNN
+F 2 "" H 8350 5350 50  0001 C CNN
+F 3 "" H 8350 5350 50  0001 C CNN
+	1    8350 5350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7400 6000 7400 6150
 Wire Wire Line
@@ -413,13 +446,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 5800 7150 5800
 Wire Wire Line
-	6700 5250 7900 5250
-Wire Wire Line
 	7400 5600 7400 5550
-Wire Wire Line
-	7900 5250 7900 4250
-Wire Wire Line
-	7900 4250 8700 4250
 Connection ~ 7400 5250
 Wire Wire Line
 	6400 4750 6400 5800
@@ -439,8 +466,6 @@ Wire Wire Line
 	7400 4300 7400 4250
 Connection ~ 7400 3950
 Wire Wire Line
-	6700 3950 7800 3950
-Wire Wire Line
 	7400 3400 7400 3550
 Wire Wire Line
 	7400 3550 7150 3550
@@ -453,8 +478,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 3000 7400 2950
 Connection ~ 7400 2650
-Wire Wire Line
-	6700 2650 8000 2650
 Wire Wire Line
 	7400 2100 7400 2250
 Wire Wire Line
@@ -469,39 +492,7 @@ Wire Wire Line
 	7400 1700 7400 1650
 Connection ~ 7400 1350
 Wire Wire Line
-	6700 1350 8200 1350
-Wire Wire Line
-	8200 1350 8200 3650
-Wire Wire Line
-	8200 3650 8700 3650
-Wire Wire Line
-	7400 1650 8100 1650
-Wire Wire Line
-	8100 1650 8100 3750
-Wire Wire Line
-	8100 3750 8700 3750
-Wire Wire Line
-	8700 3850 8000 3850
-Wire Wire Line
-	8000 3850 8000 2650
-Wire Wire Line
-	7400 2950 7900 2950
-Wire Wire Line
-	7900 2950 7900 3950
-Wire Wire Line
-	7900 3950 8700 3950
-Wire Wire Line
 	7400 3950 7400 4000
-Wire Wire Line
-	8700 4150 7800 4150
-Wire Wire Line
-	7800 4150 7800 4250
-Wire Wire Line
-	7800 4250 7400 4250
-Wire Wire Line
-	8700 4050 7800 4050
-Wire Wire Line
-	7800 4050 7800 3950
 Wire Wire Line
 	6800 4500 6500 4500
 Wire Wire Line
@@ -515,12 +506,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 1900 6250 4450
 Wire Wire Line
-	8700 4350 8050 4350
-Wire Wire Line
-	7400 5550 8050 5550
-Wire Wire Line
-	8050 5550 8050 4350
-Wire Wire Line
 	6250 4450 5400 4450
 Wire Wire Line
 	6400 4550 5400 4550
@@ -533,7 +518,11 @@ Wire Wire Line
 Wire Wire Line
 	1900 5500 2550 5500
 Wire Wire Line
-	2550 5500 2550 5950
+	2550 5500 2550 5750
+Wire Wire Line
+	2550 5750 2550 5850
+Wire Wire Line
+	2550 5850 2550 5950
 Wire Wire Line
 	2550 5950 2800 5950
 Wire Wire Line
@@ -548,4 +537,60 @@ Wire Wire Line
 	2300 6150 2800 6150
 Wire Wire Line
 	2100 6250 2800 6250
+Wire Wire Line
+	6700 1350 7400 1350
+Wire Wire Line
+	7400 1350 7800 1350
+Wire Wire Line
+	7400 1650 7800 1650
+Wire Wire Line
+	7800 1650 7800 1550
+Wire Wire Line
+	7800 1550 8150 1550
+Wire Wire Line
+	8150 1450 7800 1450
+Wire Wire Line
+	7800 1450 7800 1350
+Wire Wire Line
+	6700 2650 7400 2650
+Wire Wire Line
+	7400 2650 7800 2650
+Wire Wire Line
+	7400 2950 7800 2950
+Wire Wire Line
+	7800 2950 7800 2850
+Wire Wire Line
+	7800 2850 8150 2850
+Wire Wire Line
+	7800 2650 7800 2750
+Wire Wire Line
+	7800 2750 8150 2750
+Wire Wire Line
+	6700 3950 7400 3950
+Wire Wire Line
+	7400 3950 7800 3950
+Wire Wire Line
+	7800 3950 7800 4050
+Wire Wire Line
+	7800 4050 8150 4050
+Wire Wire Line
+	8150 4150 7800 4150
+Wire Wire Line
+	7800 4150 7800 4250
+Wire Wire Line
+	7800 4250 7400 4250
+Wire Wire Line
+	6700 5250 7400 5250
+Wire Wire Line
+	7400 5250 7800 5250
+Wire Wire Line
+	7800 5250 7800 5350
+Wire Wire Line
+	7800 5350 8150 5350
+Wire Wire Line
+	8150 5450 7800 5450
+Wire Wire Line
+	7800 5450 7800 5550
+Wire Wire Line
+	7800 5550 7400 5550
 $EndSCHEMATC
