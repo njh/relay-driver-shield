@@ -348,7 +348,6 @@ NoConn ~ 5400 4150
 NoConn ~ 5400 6250
 NoConn ~ 5400 6150
 NoConn ~ 5400 5950
-NoConn ~ 5400 5850
 NoConn ~ 5400 5750
 NoConn ~ 5400 5650
 NoConn ~ 5400 5550
@@ -567,8 +566,6 @@ F 3 "" H 2700 5750 50  0001 C CNN
 	1    2700 5750
 	0    1    1    0   
 $EndComp
-NoConn ~ 2800 5850
-NoConn ~ 2800 5950
 Wire Wire Line
 	2700 5750 2800 5750
 $Comp
@@ -585,4 +582,25 @@ $EndComp
 Wire Wire Line
 	1900 6050 1900 6250
 Connection ~ 1900 6250
+$Comp
+L GND #PWR014
+U 1 1 5A1C0131
+P 5550 5850
+F 0 "#PWR014" H 5550 5600 50  0001 C CNN
+F 1 "GND" H 5550 5700 50  0000 C CNN
+F 2 "" H 5550 5850 50  0001 C CNN
+F 3 "" H 5550 5850 50  0001 C CNN
+	1    5550 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 5850 5550 5850
+Wire Wire Line
+	2800 5950 2750 5950
+Wire Wire Line
+	2750 5950 2750 5750
+Connection ~ 2750 5750
+Wire Wire Line
+	2800 5850 2750 5850
+Connection ~ 2750 5850
 $EndSCHEMATC
