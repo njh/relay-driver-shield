@@ -1,7 +1,7 @@
 Relay Driver Shield
 ===================
 
-An Arduino shield for designed for controlling four 12v relays.
+An Arduino shield for controlling four 12v relays.
 The schematic and PCB layout were created using [KiCad](http://kicad-pcb.org/).
 
 While it is designed for relays, it can be used for powering anything
